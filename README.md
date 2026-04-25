@@ -1,65 +1,67 @@
-# 🌟 Aarthi Portfolio Website
+# Aarthi Portfolio Website
 
-A modern and responsive personal portfolio website showcasing my **UI/UX design**, **Frontend Development**, and **Full Stack projects**.
+A modern, responsive portfolio website showcasing UI/UX design, frontend work, full stack projects, and internship experience.
 
----
+## Live Website
 
-## 🚀 Live Demo
+[https://portfolio-dypn.onrender.com](https://portfolio-dypn.onrender.com)
 
-🔗 [View Portfolio](https://portfolio-dypn.onrender.com)
+## Features
 
----
+- Dark premium UI with gradient accents
+- Smooth animations and scroll reveal effects
+- Skills, projects, and about sections
+- Contact form with backend email integration
+- Resume download support
+- Fully responsive layout for desktop and mobile
 
-## ✨ Features
+## Tech Stack
 
-✔️ Responsive Design  
-✔️ Modern Dark Premium UI Theme  
-✔️ Animated Hero Section  
-✔️ Skills Showcase  
-✔️ Featured Projects Section  
-✔️ About Me Section  
-✔️ Contact Form  
-✔️ Social Media Links  
-✔️ Resume Download Button  
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Node.js
+- Express.js
+- Nodemailer
 
----
+## Project Structure
 
-## 🛠️ Tech Stack
+```text
+portfolio/
+├── index.html
+├── server.js
+├── package.json
+├── package-lock.json
+├── resume.pdf
+├── .env.example
+└── README.md
+```
 
-- ⚛️ React.js  
-- 🎨 Tailwind CSS / CSS3  
-- 🟨 JavaScript  
-- 🎬 Framer Motion / AOS Animations  
-- 🔥 React Icons / FontAwesome  
+## Run Locally
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aarthi198/portfolio.git
+   cd portfolio
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file:
+   ```env
+   EMAIL_USER=your_gmail@gmail.com
+   EMAIL_PASS=your_16_char_app_password
+   PORT=3000
+   ```
+4. Start the server:
+   ```bash
+   npm start
+   ```
+5. Open in browser:
+   [http://localhost:3000](http://localhost:3000)
 
-## 📂 Featured Projects
+## Contact
 
-### 🌾 Khet Kart – SIH UI/UX Design
-A digital platform connecting farmers directly with consumers to ensure fair pricing and eliminate middlemen.
-
-### 💰 FinTrack
-A smart finance tracking application to monitor expenses, savings, and budgets.
-
-### 🌊 City Flood Watch
-A flood monitoring and alert system for smart cities.
-
-### 💊 Smart Medicine Reminder Box
-An IoT-based reminder system to help users take medicine on time.
-
-### 🌡️ Temperature & Humidity Monitoring
-An IoT project using sensors to monitor environmental conditions.
-
-### 💼 Internship Tasks
-Projects and tasks completed during internships.
-
----
-
-## ⚙️ Installation
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-npm start
+- GitHub: [https://github.com/Aarthi198](https://github.com/Aarthi198)
+- LinkedIn: [https://www.linkedin.com/in/aarthi-m-030138294](https://www.linkedin.com/in/aarthi-m-030138294)
