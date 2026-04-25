@@ -589,21 +589,6 @@
         .project-image.weather { background: linear-gradient(135deg, #0f1f2f 0%, #18435f 45%, #2e7096 100%); }
         .project-image.codsoft { background: linear-gradient(135deg, #131822 0%, #2e3f63 45%, #405ca1 100%); }
 
-        .project-overlay {
-            position: absolute;
-            inset: 0;
-            background: rgba(10, 10, 15, 0.9);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .project-card:hover .project-overlay {
-            opacity: 1;
-        }
-
         .project-content {
             padding: 2rem;
         }
@@ -639,6 +624,11 @@
             border-radius: 5px;
             font-size: 0.7rem;
             color: var(--text-secondary);
+        }
+
+        .project-link {
+            display: inline-block;
+            margin-top: 1.1rem;
         }
 
         /* About Section */
@@ -1041,9 +1031,6 @@
             <div class="project-card reveal" style="animation-delay: 0.1s;">
                 <div class="project-image fintrack" data-label="FinTrack - Smart Money Management">
                     <span class="project-thumb-icon">💹</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/fintrack-uiux-design" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">UI/UX Design</div>
@@ -1057,14 +1044,12 @@
                         <span>Prototyping</span>
                         <span>User Research</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/fintrack-uiux-design" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
             <div class="project-card reveal" style="animation-delay: 0.2s;">
                 <div class="project-image khetkart" data-label="Khet Kart - Agricultural Platform">
                     <span class="project-thumb-icon">🌾</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/khet-kart-uiux-design" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">UI/UX Design</div>
@@ -1078,14 +1063,12 @@
                         <span>Wireframing</span>
                         <span>UI Design</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/khet-kart-uiux-design" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
             <div class="project-card reveal" style="animation-delay: 0.3s;">
                 <div class="project-image floodwatch" data-label="City Flood Watch - Monitoring Dashboard">
                     <span class="project-thumb-icon">🌊</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/city-flood-watch" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">Fullstack Development</div>
@@ -1100,14 +1083,12 @@
                         <span>Tailwind</span>
                         <span>AI/ML</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/city-flood-watch" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
             <div class="project-card reveal" style="animation-delay: 0.4s;">
                 <div class="project-image zidio" data-label="Zidio Internship Task - Full Stack App">
                     <span class="project-thumb-icon">💼</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/Zidio" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">Internship Project</div>
@@ -1121,14 +1102,12 @@
                         <span>HTML</span>
                         <span>CSS</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/Zidio" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
             <div class="project-card reveal">
                 <div class="project-image medicine" data-label="Smart Medicine Reminder Box - IoT Automation">
                     <span class="project-thumb-icon">💊</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/Smart-medicine-remainder-box" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">IoT Project</div>
@@ -1143,14 +1122,12 @@
                         <span>IoT</span>
                         <span>Embedded Systems</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/Smart-medicine-remainder-box" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
             <div class="project-card reveal">
                 <div class="project-image weather" data-label="Temperature & Humidity Monitoring - Live Sensors">
                     <span class="project-thumb-icon">🌡️</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/Iot-temperature-humidity-monitoring" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">IoT Project</div>
@@ -1165,14 +1142,12 @@
                         <span>IoT</span>
                         <span>Sensors</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/Iot-temperature-humidity-monitoring" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
             <div class="project-card reveal">
                 <div class="project-image codsoft" data-label="CODSOFT Internship Tasks - Web Portfolio Set">
                     <span class="project-thumb-icon">🚀</span>
-                    <div class="project-overlay">
-                        <a href="https://github.com/Aarthi198/CODSOFT" target="_blank" class="btn btn-primary">View Project</a>
-                    </div>
                 </div>
                 <div class="project-content">
                     <div class="project-category">Internship Project</div>
@@ -1186,6 +1161,7 @@
                         <span>HTML</span>
                         <span>CSS</span>
                     </div>
+                    <a href="https://github.com/Aarthi198/CODSOFT" target="_blank" class="btn btn-primary project-link">View Project</a>
                 </div>
             </div>
         </div>
